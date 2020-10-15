@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../index.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="contenido">
+    <div class="container-md">
+        <!--nav-->
+        <div class="row header">
+            <div class="col col-sm-2 col-md-lg-2  uno">
+                <a href="home.html"> <img src="../img/logo.png"></a> 
+            </div>
+            <div class="col col-sm-6 col-md-lg-8 dos  d-none d-sm-block d-sm-none d-md-block header">
+               <nav class="navbar">
+                   <ul>
+                       <a href="catalogue.html">PRODUCTOS </a>
+                       <a href="question.html">PREGUNTAS FRECUENTES</a>
+                       <a href="contact.html">CONTACTO</a>
+                     
+                   </ul>
+               </nav>
+            </div>
+
+            <div class="col col-sm-4 col-md-lg-2 cuatro header ">
+                <nav class="navbar">
+                    <ul>
+                        <a href="login.html">
+                            INGRESO
+                        </a>
+                        <a href="register.html"> REGISTRAR</a>
+                    </ul>
+                   
+                </nav>
+              
+            </div>
+           
+        </div>
+        <!--formulario-->
+        <div class="row " >
+            <div class="col  tres  text-center login-page">
+               
+                <form action="" method="post"> 	
+                    <h4><b>REGISTRATE</b></h4><br>		
+                    <!--Nombre-->
+                    <div class="row">
+                        <div class="col-md-12 login-from-row">
+                            <label >Nombre</label><br>
+                            <input name="nombre" type="text" placeholder="Ingrese el nombre" required/><br>
+
+                            <small>Obligatorio</small>
+                        </div>
+                    </div>
+                    <!--Email-->
+                    <div class="row">
+                        <div class="col-md-12 login-from-row">
+                            <label>Email</label><br>
+                            <input name="email" type="text" placeholder="Ingrese el email" required/><br>
+                            <small>Obligatorio</small>
+                        </div>
+                    </div>
+                    <!--Password-->
+                    <div class="row">
+                        <div class="col-md-12 login-from-row">
+                            <label >Contraseña</label><br>
+                            <input name="password" type="password" placeholder="Ingrese la contraseña" required/><br>
+                            <small>Obligatorio</small>
+                        </div>
+                    </div>
+                  
+                    <!--Genero-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label><b>G&eacute;nero</b></label><br>
+
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline1">Masculino</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline2">Femenino</label>
+                                
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline2">Prefiero no decirlo</label>
+                                
+                              </div>
+                        </div>
+                    </div><br>
+                  
+                
+                   
+                    <div class="row">
+                        <div class="col-md-12 login-from-row  form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Acepto los t&eacute;rminos y condiciones</label><br><br>
+                     
+                        </div>
+                    </div>
+                    
+                    <!--btn Entrar -->
+                    <div class="row">
+                        <div class="col-md-12 login-from-row">
+                            <button class="btn btn-info">Registrame </button>
+                            <button class="btn btn-info">Cancelar</button>
+                        </div>
+                    </div>
+                    
+               </form>
+            </div>
+            
+        </div>
+    </div>
+  
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

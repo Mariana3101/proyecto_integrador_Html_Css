@@ -1,0 +1,56 @@
+/*
+.uno{
+    background-color: aquamarine;
+}
+.dos{
+    background-color: blue;
+}
+.tres{
+    background-color: coral;
+}
+.cuatro{
+    background-color: brown;
+}*/
+.contenido{
+    background-color:#A3E4D7;
+   
+}
+.header .navbar ul a{
+    color: white !important;
+}
+.header{
+    background-color: #EB984E  ;
+}
+
+.login-page {
+    padding: 20px;
+    margin: 0 auto 100px;
+    max-width: 360px;
+    position: relative;
+}
+.login-from-row {
+   
+    padding-bottom: 16px;
+}
+small{
+    color: red
+}
+.img-catalogue{
+    width: 225px;
+    height: 225px;
+}
+.container{
+    padding-top: 10px;
+    
+}
+/* detail*/
+
+.precio{
+    padding-top: 10px;
+}
+/*home*/
+
+.img-carousel{
+ width: 600px;
+ height: 350px;
+}
